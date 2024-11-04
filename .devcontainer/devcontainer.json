@@ -1,0 +1,32 @@
+{
+  "name": "Rust",
+  "privileged": true,
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "development",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "esbenp.prettier-vscode",
+        "vscode-icons-team.vscode-icons",
+        "usernamehw.errorlens",
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "dustypomerleau.rust-syntax",
+        "serayuzgur.crates"
+      ]
+    },
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash",
+      "workbench.panel.defaultLocation": "bottom",
+      "workbench.colorTheme": "GitHub Dark High Contrast",
+      "editor.fontFamily": "Ubuntu Mono derivative Powerline",
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.formatOnPaste": true,
+      "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    }
+  }
+}
